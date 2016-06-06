@@ -5,9 +5,21 @@
  - 简历数据存放在`resume.json`文件中
  - 简历中的代码可高亮
  - 有任何问题欢迎提issue
+
 #### 简历效果如下图所示
 
 ![](src/img/xiaoguo.png)
+
+## 环境安装
+
+首先确保你的电脑已经安装了
+Node.js：https://nodejs.org/en/，
+
+然后在终端输入如下命令：
+```js
+gulp: $ npm install --global gulp
+bower: $ npm install -g bower
+```
 
 ## Build
 
@@ -26,6 +38,7 @@
 chrome执行：文件 —— 打印——页码处写1——底下选项勾选背景图形 即可
 
 Safari执行：文件——导出为PDF 即可
+
 
 ## LICENSE
 
