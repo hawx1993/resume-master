@@ -1,0 +1,22 @@
+{
+  "name": "resume-master",
+  "description": "A resume generator read data from json",
+  "main": "gulpfile.js",
+  "authors": [
+    "trigkit4"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "resume"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/hawx1993/resume-master",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

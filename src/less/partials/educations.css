@@ -1,0 +1,58 @@
+.education_column {
+  width: 550px;
+  float: right;
+  margin-bottom: 30px;
+}
+.education_column .border_line {
+  display: inline-block;
+  width: 525px;
+  height: 36px;
+  border-bottom: 1.5pt solid #cccccc;
+  margin-left: 25px;
+}
+.education_column .border_line .schoolName {
+  font-size: 12pt;
+  color: #444;
+  line-height: 3;
+  font-style: oblique;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.education_column .border_line .selfIntro {
+  display: inline-block;
+  background-color: #EEEEEE;
+  border-bottom: 1.5pt solid #CCCCCC;
+  width: 254px;
+  height: 20px;
+  margin-left: 103px;
+  font-size: 12pt;
+  color: #666;
+  padding: 6px 0 0 10px;
+}
+.education_column ul {
+  margin-left: 30px;
+}
+.education_column ul li {
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 6px;
+  line-height: 1.25;
+}
+.education_column ul li .type {
+  margin-left: 60px;
+  color: #444;
+  margin-right: 70px;
+}
+.education_column ul li .level {
+  margin-left: 90px;
+  margin-right: 70px;
+}
+.education_column ul li .desc {
+  margin-right: 64px;
+}
+.education_column ul li .now {
+  margin-left: 40px;
+}
+.education_column ul li .date {
+  margin-left: 60px;
+}

@@ -1,0 +1,314 @@
+* {
+  font-weight: normal;
+}
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+.columnSet {
+  display: inline-block;
+  width: 184px;
+  background-color: #d9d2e9;
+  text-align: right;
+  border-right: 8pt solid #999999;
+  height: 24px;
+}
+.text {
+  display: inline-block;
+  font-size: 12pt;
+  color: #666666;
+  margin: 0.5mm 4.0mm 0.5mm 0.0mm;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.15;
+}
+.fontSet {
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.headerFontSet {
+  font-size: 11pt;
+  color: #444;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.resume {
+  width: 210mm;
+  height: 297mm;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 0;
+}
+.resume .inner_resume {
+  margin: 7.1mm 15.3mm 0.5mm 0.1mm;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+.border_box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.rights {
+  margin: 20px;
+  text-align: center;
+}
+.rights .resumeLinks {
+  color: #93c47d;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-size: 1em;
+  font-weight: 700;
+  color: teal;
+  background-color: #f8f8f8;
+}
+.row {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0.6mm;
+  border-spacing: 0;
+  font-size: 11pt;
+  color: #444;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.row .personal_resume {
+  background-color: #999999;
+  text-align: center;
+  vertical-align: middle;
+  width: 191px;
+  height: 26px;
+  color: #f3f3f3;
+}
+.row .personal_resume .text_resume {
+  font-size: 12pt;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: oblique;
+  text-decoration: none;
+  line-height: 2.0;
+}
+.row .jobs_wanted {
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 0.75pt dashed #999999;
+  min-height: 12pt;
+}
+.row .line2 {
+  background-color: #f3f3f3;
+  vertical-align: middle;
+  padding: 0 0 0 4.0mm;
+  border-right: 2.25pt solid #93c47d;
+  white-space: pre-wrap;
+}
+.row .blog {
+  text-align: right;
+}
+.row .line3 {
+  padding: 0 0 0 4.0mm;
+  vertical-align: middle;
+}
+.row .line4 {
+  padding: 0 0 0 4.0mm;
+  vertical-align: middle;
+  background-color: #f3f3f3;
+  border-right: 2.25pt solid #93c47d;
+}
+.line1 {
+  padding-bottom: 1mm;
+}
+.timelineWrapper {
+  display: inline-block;
+  border-right: 0.75pt solid #999999;
+  width: 180px;
+  height: 968px;
+  float: left;
+}
+.timelineWrapper .eduction {
+  margin-top: 30px;
+}
+.timelineWrapper .eduction .right_cell {
+  border-bottom: 1.5pt solid #cccccc;
+}
+.timelineWrapper .schoolTime {
+  display: inline-block;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-left: 50px;
+  margin-top: 4px;
+}
+.timelineWrapper .project {
+  margin-top: 50px;
+}
+.timelineWrapper .skill {
+  float: left;
+}
+.education_column {
+  width: 550px;
+  float: right;
+  margin-bottom: 30px;
+}
+.education_column .border_line {
+  display: inline-block;
+  width: 525px;
+  height: 36px;
+  border-bottom: 1.5pt solid #cccccc;
+  margin-left: 25px;
+}
+.education_column .border_line .schoolName {
+  font-size: 12pt;
+  color: #444;
+  line-height: 3;
+  font-style: oblique;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.education_column .border_line .selfIntro {
+  display: inline-block;
+  background-color: #EEEEEE;
+  border-bottom: 1.5pt solid #CCCCCC;
+  width: 254px;
+  height: 20px;
+  margin-left: 103px;
+  font-size: 12pt;
+  color: #666;
+  padding: 6px 0 0 10px;
+}
+.education_column ul {
+  margin-left: 30px;
+}
+.education_column ul li {
+  font-size: 10pt;
+  color: #666;
+  margin-bottom: 6px;
+  line-height: 1.25;
+}
+.education_column ul li .type {
+  margin-left: 60px;
+  color: #444;
+  margin-right: 70px;
+}
+.education_column ul li .level {
+  margin-left: 90px;
+  margin-right: 70px;
+}
+.education_column ul li .desc {
+  margin-right: 64px;
+}
+.education_column ul li .now {
+  margin-left: 40px;
+}
+.education_column ul li .date {
+  margin-left: 60px;
+}
+.border_line {
+  display: flex;
+  width: 525px;
+  border-bottom: 1.5pt solid #cccccc;
+  margin-left: 205px;
+}
+.experience {
+  display: inline-block;
+  width: 530px;
+  float: right;
+  margin-top: 20px;
+  border-bottom: 1px dashed #ccc;
+}
+.experience .project_name {
+  font-family: SimSun, 宋体, 华文宋体;
+  margin: 0.5mm 0.5mm 0.5mm 1.0mm;
+  font-size: 10.5pt;
+  color: #3d85c6;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.experience .project_desc {
+  font-family: Tahoma;
+  margin: 0.5mm 0.5mm 1mm 1.0mm;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+}
+.intern_column {
+  margin-left: 200px;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.intern_column .intern_desc {
+  background-color: #f3f3f3;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 2;
+  color: #3d85c6;
+  width: 530px;
+  height: 24px;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 10px;
+}
+.intern_column ul {
+  margin-left: 10px;
+}
+.skill {
+  float: right;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.skill .skill_border {
+  border-right: 3pt solid #93c47d;
+}
+.skill .skill_desc {
+  background-color: #EEEEEE;
+  width: 540px;
+  height: 24px;
+  text-align: left;
+  vertical-align: middle;
+  border-left: 3pt solid #93c47d;
+  color: #666;
+  font-size: 10pt;
+  line-height: 2;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.skill ul {
+  margin-left: 30px;
+}
+.desc_header {
+  background-color: #f3f3f3;
+  width: 555px;
+  height: 24px;
+  margin-top: 382px;
+  margin-left: 180px;
+}
+.self_content {
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-left: 190px;
+  margin-bottom: -10px;
+}

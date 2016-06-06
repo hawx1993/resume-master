@@ -1,0 +1,35 @@
+{
+  "name": "resume-master",
+  "version": "1.0.0",
+  "description": "A resume generator read data from json",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "phantomjs render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hawx1993/resume-master.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "trigkit4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hawx1993/resume-master/issues"
+  },
+  "homepage": "https://github.com/hawx1993/resume-master#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sync": "^0.1.4",
+    "run-sequence": "^1.2.1"
+  }
+}

@@ -1,0 +1,11 @@
+{{#each skill}}
+    <div class="skill">
+
+        <p class="skill_desc">{{summary}}</p>
+        {{#each description}}
+            <ul>
+                <li>{{~{this}~}}</li>
+            </ul>
+        {{/each}}
+    </div>
+{{/each}}
