@@ -18,19 +18,22 @@
   font-weight: bold;
   padding-left: 10px;
 }
-.education_column .border_line .selfIntro {
+.education_column .selfIntro {
   display: inline-block;
+  position: relative;
+  right: -286px;
+  top: -44px;
   background-color: #EEEEEE;
-  border-bottom: 1.5pt solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
   width: 254px;
   height: 20px;
-  margin-left: 103px;
   font-size: 12pt;
   color: #666;
-  padding: 6px 0 0 10px;
+  padding: 6px 0 1px 10px;
 }
 .education_column ul {
   margin-left: 30px;
+  margin-top: -27px;
 }
 .education_column ul li {
   font-size: 10pt;

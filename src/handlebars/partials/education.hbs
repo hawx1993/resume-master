@@ -2,22 +2,22 @@
     {{#each personal_info}}
         <p class="border_line">
             <span class="schoolName">{{school_name}}</span>
-            <span class="selfIntro">个人简介</span>
         </p>
+        <span class="selfIntro">个人简介</span>
         <ul>
             <li>
                 {{major}}
                 <span class="type">{{type}}</span>
-                <span>籍贯：{{native}}</span>
-                <span class="now">现居：{{now_place}}</span>
+                <span>{{jiguan}}：{{native}}</span>
+                <span class="now">{{xianju}}：{{now_place}}</span>
             </li>
             <li>
-                英语水平  <span class="level">{{English_level}}</span>
-                <span>性别：{{sex}}<span class="date">出生日期：{{date_of_birth}}</span></span>
+                {{enlevel}}  <span class="level">{{English_level}}</span>
+                <span>{{xingbie}}：{{sex}}<span class="date">{{riqi}}：{{date_of_birth}}</span></span>
             </li>
             <li>
                 <span class="desc">{{desc}}</span>
-                <span>兴趣爱好：{{interests}}</span>
+                <span>{{aihao}}：{{interests}}</span>
             </li>
         </ul>
     {{/each}}

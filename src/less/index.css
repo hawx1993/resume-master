@@ -1,10 +1,6 @@
 * {
   font-weight: normal;
 }
-@page {
-  size: A4 portrait;
-  margin: 0;
-}
 .columnSet {
   display: inline-block;
   width: 184px;
@@ -61,11 +57,11 @@ table {
 a {
   text-decoration: none;
 }
-.rights {
-  margin: 20px;
+footer {
+  margin: 30px 6px;
   text-align: center;
 }
-.rights .resumeLinks {
+footer .resumeLinks {
   color: #93c47d;
 }
 ul {
@@ -80,7 +76,6 @@ code {
 }
 .row {
   position: relative;
-  padding-top: 0;
   padding-bottom: 0.6mm;
   border-spacing: 0;
   font-size: 11pt;
@@ -111,12 +106,18 @@ code {
   border-bottom: 0.75pt dashed #999999;
   min-height: 12pt;
 }
+.row .row2 {
+  display: inline-block;
+}
 .row .line2 {
   background-color: #f3f3f3;
   vertical-align: middle;
   padding: 0 0 0 4.0mm;
   border-right: 2.25pt solid #93c47d;
-  white-space: pre-wrap;
+}
+.row .line2 .tel {
+  float: right;
+  padding-right: 20px;
 }
 .row .blog {
   text-align: right;
@@ -138,7 +139,7 @@ code {
   display: inline-block;
   border-right: 0.75pt solid #999999;
   width: 180px;
-  height: 968px;
+  height: 970px;
   float: left;
 }
 .timelineWrapper .eduction {
@@ -182,19 +183,22 @@ code {
   font-weight: bold;
   padding-left: 10px;
 }
-.education_column .border_line .selfIntro {
+.education_column .selfIntro {
   display: inline-block;
+  position: relative;
+  right: -286px;
+  top: -44px;
   background-color: #EEEEEE;
-  border-bottom: 1.5pt solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
   width: 254px;
   height: 20px;
-  margin-left: 103px;
   font-size: 12pt;
   color: #666;
-  padding: 6px 0 0 10px;
+  padding: 6px 0 1px 10px;
 }
 .education_column ul {
   margin-left: 30px;
+  margin-top: -27px;
 }
 .education_column ul li {
   font-size: 10pt;
@@ -230,13 +234,13 @@ code {
   display: inline-block;
   width: 530px;
   float: right;
-  margin-top: 20px;
+  margin-top: 14px;
   border-bottom: 1px dashed #ccc;
 }
 .experience .project_name {
   font-family: SimSun, 宋体, 华文宋体;
-  margin: 0.5mm 0.5mm 0.5mm 1.0mm;
-  font-size: 10.5pt;
+  margin: 0mm 0.5mm 0.5mm 1.0mm;
+  font-size: 11pt;
   color: #3d85c6;
   font-weight: bold;
   line-height: 1.5;
@@ -301,7 +305,6 @@ code {
   background-color: #f3f3f3;
   width: 555px;
   height: 24px;
-  margin-top: 382px;
   margin-left: 180px;
 }
 .self_content {
@@ -310,5 +313,5 @@ code {
   line-height: 1.5;
   font-weight: normal;
   margin-left: 190px;
-  margin-bottom: -10px;
+  margin-top: -2px;
 }

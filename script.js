@@ -29,5 +29,5 @@ var column5 = $("#column5")[0];
 column5.style.marginTop = skillGapHeight + "px";
 
 var descHead = $(".desc_header")[0];
-descHead.style.marginTop = skillGapHeight +50+ "px";
+descHead.style.marginTop = skillGapHeight +48+ "px";
 

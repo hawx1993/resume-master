@@ -1,11 +1,15 @@
 ## About this repo
 
-`resume-master` 是个简历生成器，从json中读取数据，可部署到github pages 在线浏览，也可生成pdf格式简历。
+`resume-master` 是一个简历生成器，从json中读取数据，可部署到github pages 在线浏览，也可生成pdf格式简历。
 
  - 简历数据存放在`resume.json`文件中
+ - 简历中的代码可高亮
  - 有任何问题欢迎提issue
+#### 简历效果如下图所示
 
- ## Build
+![](src/img/xiaoguo.png)
+
+## Build
 
  1.执行 `npm install` 安装依赖
 
@@ -17,12 +21,13 @@
 
 ## 生成PDF文件
 
-执行如下操作：
+请使用chrome或者Safari浏览器来打印。
 
-```
-$ brew install phantomjs
-```
- ## LICENSE
+chrome执行：文件 —— 打印——页码处写1——底下选项勾选背景图形 即可
+
+Safari执行：文件——导出为PDF 即可
+
+## LICENSE
 
  (MIT License)
 

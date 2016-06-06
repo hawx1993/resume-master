@@ -1,81 +1,92 @@
 {
   "title": "黄文雄 - 个人简历",
   "jobs": ["前端开发工程师"],
+  "xingming": "姓名",
   "name": "黄文雄",
+  "youxiang": "邮箱",
+  "dianhua": "电话",
   "mail": "trigkit@163.com",
-  "phone": "(+86) 15869194143",
+  "phone": "(+86) 1586919xxxx",
   "blog": "http://segmentfault.com/u/trigkit4/blogs",
   "github": "https://github.com/hawx1993",
   "personal_info": [{
-    "school_name": "华侨大学厦门工学院",
+    "school_name": "你的大学名字",
     "major": "电子信息工程系",
     "type": "本科",
     "English_level": "CET-4",
     "start": "2012.09",
     "end": "2016.07",
+    "enlevel": "英语水平",
     "desc": "能较为流畅阅读英文文档和书籍",
+    "jiguan": "籍贯",
     "native": "福建泉州",
+    "xianju": "现居",
     "now_place": "福建厦门",
+    "xingbie": "性别",
     "sex": "男",
+    "riqi": "出生日期",
     "date_of_birth": "1993-05-23",
+    "aihao": "兴趣爱好",
     "interests": "篮球羽毛球乒乓球"
   }],
   "experience": [{
-    "project_name": "以勒图购物",
-    "start": "2014.01",
-    "end": "2015.01",
+    "project_name": "judgejs",
+    "start": "2016.01",
+    "end": "2016.03",
+    "description": [
+      "轻量级前端判断类库，没有任何依赖，支持AMD & CommonJS",
+      "主要封装一些常用信息判断，使用Qunit单元测试"
+    ]
+  },{
+    "project_name": "校园团购网--益乐团购",
+    "start": "2014.03",
+    "end": "2014.07",
     "description": [
       "使用最土团购系统，开发短信注册等功能；开发一些通用的前端组件，并作网站性能优化",
       "主要使用原生js开发；解决浏览器兼容问题，并作SEO；数据库使用MySQL，后端是PHP"
     ]
-  },{
-    "project_name": "撒旦撒旦",
-    "start": "2014.01",
-    "end": "2015.01",
-    "description": [
-      "撒旦撒旦都是撒旦撒旦撒色粉色粉旦撒旦 撒旦撒旦撒旦撒旦",
-      "发给发给人人个第三个 把电饭锅大概为根深蒂固都是",
-      "多了网这列写的撒旦撒旦撒旦撒旦"
-    ]
   }],
   "works": [{
-    "intern_jobs": "美团网前端开发实习生",
+    "intern_jobs": "微店前端实习生 (2015.12~2016.04)",
     "description": [
-      "飒飒大大多撒旦撒旦撒旦撒旦撒旦撒旦撒旦撒旦撒旦撒旦十大",
-      "撒旦撒旦都是撒旦撒旦撒色粉色粉旦撒旦 撒旦撒旦撒旦撒旦"
+      "微店助农项目开发，橱窗推荐开发，组件开发，数据埋点，分销项目开发等"
+    ]
+  },{
+    "intern_jobs": "美团前端开发实习生 (2015.07~2016.09)",
+    "description": [
+      "修复内部系统bug，完成美团app页面开发，美团i版收银台bug fix，常规组件开发等"
     ]
   }],
   "skill": [{
-    "summary": "web前端",
+    "summary": "web前端：HTML / CSS、JavaScript",
     "description": [
-      "熟悉 `HTML5`，能够编写语义良好的 `HTML`",
-      "熟悉 `CSS3` 新特性，对 `CSS` 动画性能有一定了解",
-      "能够独立完成较复杂的 UI 开发",
-      "撒旦撒旦都是撒旦撒旦撒色粉色粉旦撒旦 撒旦撒旦撒旦撒旦"
+      "能够编写语义化的html代码，掌握常见布局，熟悉浏览器兼容性问题",
+      "熟悉 HTML5 / CSS3 新特性，并有相关项目经验，掌握css预处理器LESS",
+      "熟悉 ECMAScript 6，了解 JavaScript 在浏览器环境中常见的兼容性问题及解决方案"
     ]
   },{
-    "summary": "web后端",
+    "summary": "库/框架：jQuery、Zepto、Backbone.js",
     "description": [
-      "熟悉 `HTML5`，能够编写语义良好的 `HTML`",
-      "熟悉 `CSS3` 新特性，对 `CSS` 动画性能有一定了解",
-      "能够独立完成较复杂的 UI 开发"
-    ]
-  },{
-    "summary": "android",
+      "仔细阅读和研究过jQuery和Zepto源码，并着手写了个简易DOM操作的js库",
+      "了解 Backbone.js & Angularjs 及前端 MV* 模型"
+    ]},{
+    "summary": "技 能 描 述：",
     "description": [
-      "熟悉 `HTML5`，能够编写语义良好的 `HTML`",
-      "熟悉 `CSS3` 新特性，对 `CSS` 动画性能有一定了解",
-      "能够独立完成较复杂的 UI 开发"
+      "熟悉ECMAScript，对js有一定深入研究和学习。 ﻿写过jQuery全屏滚动插件",
+      "对Sea.js / RequireJS / Browserify / Bower / WebPack 等模块化解决方案有一定实践",
+      "了解ECMAScript 6，了解 JavaScript 在浏览器环境中常见的兼容性问题及解决方案",
+      "常使用 Grunt 或 Gulp 改进工作流，使用Mac os X进行开发，熟悉常用Linux & git命令",
+      "对前端性能优化和模块化、网络基础、Hybrid App、Native App等有一定了解"
     ]
   }],
   "self_desc": [{
     "description": [
-      "大二开始学习前端开发，掌握多种前端技能，兴趣广泛，有较为扎实的js基础，热爱互联网和前端开发，勤奋好学，喜欢研究计算机。",
-      "关注新技术， 喜欢尝试新事物，具有较为全面的技术视野，目标是成为前端架构师。"
+      "大二开始接触前端开发，掌握多种前端技能，兴趣广泛，有较为扎实的js基础，热爱互联网和前端开发，勤奋好学，喜欢研究计算机。",
+      "关注新技术，喜欢尝试新事物，具有较为全面的技术视野，目标是成为前端架构师。"
     ]
   }],
   "sideBar":[{
-    "column3": "工作经验",
+    "column3": "实习经验",
     "column4": "掌握技能",
     "column5": "自我描述"
   }]
