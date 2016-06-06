@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resume.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume.json">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handlebars/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state vertical-scroll-proportion="-13.233334">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state>
-              <first_editor vertical-scroll-proportion="0.64983714">
-                <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <first_editor vertical-scroll-proportion="1.7785016">
+                <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/handlebars/index.hbs">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.3">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state vertical-scroll-proportion="-14.7">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="49" selection-start-line="143" selection-start-column="49" selection-end-line="143" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -57,7 +67,7 @@
       <file leaf-file-name="sidebar.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/handlebars/partials/sidebar.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.866667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
@@ -67,7 +77,7 @@
       <file leaf-file-name="header.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/handlebars/partials/header.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.2">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
@@ -77,7 +87,7 @@
       <file leaf-file-name="headers.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/partials/headers.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.1">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding />
             </state>
@@ -111,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/less/partials/intern.less" />
         <option value="$PROJECT_DIR$/src/less/partials/skill.less" />
         <option value="$PROJECT_DIR$/render.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -128,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/less/partials/headers.less" />
         <option value="$PROJECT_DIR$/src/handlebars/index.hbs" />
         <option value="$PROJECT_DIR$/resume.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -145,7 +155,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="-11" />
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="713" />
@@ -179,8 +189,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,38 +206,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resume-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1366" height="713" extended-state="6" />
+    <frame x="-11" y="23" width="1366" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -304,17 +282,17 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0031055901" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0031055901" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -327,11 +305,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state>
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars/partials/sidebar.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars/partials/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/headers.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/common/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -339,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -347,14 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -378,7 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,14 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -448,21 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/headers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-gh-pages/lib/git.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.439739">
@@ -474,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9794521">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,10 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <marker date="1465221811000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1465221811000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035958905">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035958905">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10732538">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,15 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43150684">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28082192">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14383562">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7163375">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1010274">
           <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.9">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72638434">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17979452">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,15 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10787671">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7019544">
-          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.7">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6832192">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14383562">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10787671">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,13 +586,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handlebars/partials/sidebar.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.866667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
@@ -653,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handlebars/partials/header.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.2">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
@@ -661,24 +607,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/partials/headers.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.1">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlebars/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.3">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.233334">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="49" selection-start-line="143" selection-start-column="49" selection-end-line="143" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.7">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -686,8 +648,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state>
-          <first_editor vertical-scroll-proportion="0.64983714">
-            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <first_editor vertical-scroll-proportion="1.7785016">
+            <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />

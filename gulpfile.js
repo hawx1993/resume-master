@@ -141,7 +141,7 @@ gulp.task('dev',['build'], function () {
             );
         })
 });
-
+gulp.task('build-for-deploy',['less','handlebars']);
 //deploy to github pages
 gulp.task('deploy', ['build-for-deploy'], function() {
     return gulp.src('./build/**/*')
