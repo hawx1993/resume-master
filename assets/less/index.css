@@ -39,9 +39,6 @@ body {
   line-height: 1.5;
 }
 .resume {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   width: 210mm;
   height: 297mm;
   border: 1px solid #ccc;
@@ -52,6 +49,9 @@ body {
 }
 .resume .inner_resume {
   margin: 7.1mm 11.3mm 0.5mm 0.1mm;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 table {
   border-collapse: separate;
@@ -273,6 +273,10 @@ code {
   font-size: 11pt;
   color: #3d85c6;
   line-height: 1.5;
+}
+.experience .project_name .projectNameDesc {
+  float: right;
+  color: teal;
 }
 .experience .project_desc {
   font-family: Tahoma;

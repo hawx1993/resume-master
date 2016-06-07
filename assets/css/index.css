@@ -274,6 +274,10 @@ code {
   color: #3d85c6;
   line-height: 1.5;
 }
+.experience .project_name .projectNameDesc {
+  float: right;
+  color: teal;
+}
 .experience .project_desc {
   font-family: Tahoma;
   margin: 0.5mm 0.5mm 1mm 1.0mm;

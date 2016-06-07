@@ -1,7 +1,6 @@
-///**
-// * Created by trigkit4 on 16/6/6.
-// */
-'use strict';
+/**
+ * Created by trigkit4 on 16/6/7.
+ */
 var page = require('webpage').create();
 var address = 'build/index.html';
 var output = 'resume.pdf';
@@ -29,4 +28,3 @@ page.open(address, function (status) {
         }, 200);
     }
 });
-
