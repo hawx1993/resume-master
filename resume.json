@@ -7,6 +7,8 @@
   "dianhua": "电话",
   "mail": "trigkit@163.com",
   "phone": "(+86) 1586919xxxx",
+  "boke": "博客",
+  "opensource": "github",
   "blog": "http://segmentfault.com/u/trigkit4/blogs",
   "github": "https://github.com/hawx1993",
   "personal_info": [{
@@ -34,8 +36,8 @@
     "start": "2016.01",
     "end": "2016.03",
     "description": [
-      "轻量级前端判断类库，没有任何依赖，支持AMD & CommonJS",
-      "主要封装一些常用信息判断，使用Qunit单元测试"
+      "轻量级前端判断类库，没有任何依赖，支持`AMD` & `CommonJS`",
+      "主要封装一些常用信息判断，使用`Qunit`单元测试"
     ]
   },{
     "project_name": "校园团购网--益乐团购",
@@ -43,7 +45,7 @@
     "end": "2014.07",
     "description": [
       "使用最土团购系统，开发短信注册等功能；开发一些通用的前端组件，并作网站性能优化",
-      "主要使用原生js开发；解决浏览器兼容问题，并作SEO；数据库使用MySQL，后端是PHP"
+      "主要使用原生`js`开发；解决浏览器兼容问题，并作SEO；数据库使用`MySQL`，后端是PHP"
     ]
   }],
   "works": [{
@@ -61,22 +63,22 @@
     "summary": "web前端：HTML / CSS、JavaScript",
     "description": [
       "能够编写语义化的html代码，掌握常见布局，熟悉浏览器兼容性问题",
-      "熟悉 HTML5 / CSS3 新特性，并有相关项目经验，掌握css预处理器LESS",
-      "熟悉 ECMAScript 6，了解 JavaScript 在浏览器环境中常见的兼容性问题及解决方案"
+      "熟悉 `HTML5` / `CSS3` 新特性，并有相关项目经验，掌握css预处理器LESS",
+      "熟悉 `ECMAScript 6`，了解 JavaScript 在浏览器环境中常见的兼容性问题及解决方案"
     ]
   },{
     "summary": "库/框架：jQuery、Zepto、Backbone.js",
     "description": [
-      "仔细阅读和研究过jQuery和Zepto源码，并着手写了个简易DOM操作的js库",
-      "了解 Backbone.js & Angularjs 及前端 MV* 模型"
+      "仔细阅读和研究过`jQuery`和`Zepto`源码，并着手写了个简易`DOM`操作的`js`库",
+      "了解 `Backbone.js` & `Angularjs` 及前端 MV* 模型"
     ]},{
     "summary": "技 能 描 述：",
     "description": [
-      "熟悉ECMAScript，对js有一定深入研究和学习。 ﻿写过jQuery全屏滚动插件",
-      "对Sea.js / RequireJS / Browserify / Bower / WebPack 等模块化解决方案有一定实践",
-      "了解ECMAScript 6，了解 JavaScript 在浏览器环境中常见的兼容性问题及解决方案",
-      "常使用 Grunt 或 Gulp 改进工作流，使用Mac os X进行开发，熟悉常用Linux & git命令",
-      "对前端性能优化和模块化、网络基础、Hybrid App、Native App等有一定了解"
+      "熟悉`ECMAScript`，对`js`有一定深入研究和学习。 ﻿写过`jQuery`全屏滚动插件",
+      "对`Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等模块化解决方案有一定实践",
+      "了解`ECMAScript 6`，了解 `JavaScript` 在浏览器环境中常见的兼容性问题及解决方案",
+      "常使用 `Grunt` 或 `Gulp` 改进工作流，使用`Mac os X`进行开发，熟悉常用`Linux` & `git`命令",
+      "对前端性能优化和模块化、网络基础、`Hybrid App`、`Native App`等有一定了解"
     ]
   }],
   "self_desc": [{

@@ -23,7 +23,6 @@ var markdownify = function (json) {
     )
 };
 
-
 //compile handlebars
 gulp.task('handlebars', function () {
     return gulp
@@ -71,7 +70,7 @@ gulp.task('less', function () {
 //copy static files to build/assets
 gulp.task('copy:static', function () {
     return gulp
-        .src(['src/!(handlebars)/**','*.pdf'])
+        .src(['src/!(handlebars)/**'])
         .pipe(
             gulp.dest('build/assets')
         )
@@ -142,6 +141,7 @@ gulp.task('dev',['build'], function () {
         })
 });
 gulp.task('build-for-deploy',['less','handlebars']);
+
 //deploy to github pages
 gulp.task('deploy', ['build-for-deploy'], function() {
     return gulp.src('./build/**/*')

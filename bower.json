@@ -9,6 +9,10 @@
   "keywords": [
     "resume"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hawx1993/resume-master.git"
+  },
   "moduleType": [],
   "homepage": "https://github.com/hawx1993/resume-master",
   "private": true,
@@ -18,5 +22,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
 }
