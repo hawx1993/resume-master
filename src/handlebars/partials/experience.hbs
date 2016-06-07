@@ -1,7 +1,10 @@
 <span class="border_line" id="border_line1"></span>
 {{#each experience}}
     <div class="experience">
-        <p class="project_name">{{project_name}}</p>
+        <p class="project_name">
+            {{project_name}}
+            <span class="projectNameDesc">{{rightDescription}}</span>
+        </p>
         {{#each description}}
             <ul>
                 <li class="project_desc">{{~{this}~}}</li>

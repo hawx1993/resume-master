@@ -4,14 +4,11 @@
     <p class="columnSet border_box eduction" id="column1"><span class="text">教育背景</span></p>
 
         {{#each personal_info}}
-            <span class="schoolTime">{{start}} {{#if end}}~ {{end}}{{^}}至今{{/if}}</span>
+            <span class="schoolTime">{{start}} ~ {{end}}</span>
         {{/each}}
     <!--项目经验-->
     <p class="columnSet project border_box"  id="column2"><span class="text">项目经验</span></p>
 
-        {{#each personal_info}}
-            <span class="schoolTime">{{start}} ~ {{end}}</span>
-        {{/each}}
 
     {{#each sideBar}}
     <!--实习/工作经验-->

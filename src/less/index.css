@@ -3,6 +3,9 @@
 }
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 .columnSet {
   display: inline-block;
@@ -41,10 +44,14 @@ body {
   border: 1px solid #ccc;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
+  overflow: hidden;
   padding: 0;
 }
 .resume .inner_resume {
   margin: 7.1mm 11.3mm 0.5mm 0.1mm;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 table {
   border-collapse: separate;
@@ -66,7 +73,6 @@ footer {
 }
 footer .resumeLinks {
   color: teal;
-  font-weight: bold;
 }
 footer .resumeLinks:hover {
   text-decoration: underline;
@@ -80,7 +86,6 @@ li {
 }
 code {
   font-size: 1em;
-  font-weight: 600;
   color: teal;
   background-color: #f8f8f8;
 }
@@ -268,6 +273,10 @@ code {
   font-size: 11pt;
   color: #3d85c6;
   line-height: 1.5;
+}
+.experience .project_name .projectNameDesc {
+  float: right;
+  color: teal;
 }
 .experience .project_desc {
   font-family: Tahoma;

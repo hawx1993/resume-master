@@ -8,7 +8,7 @@ var projectNamePos = $(".project_name")[0].offsetTop;//355
 var gapHeight = lastListPos -  projectNamePos;
 
 var internExper = $('#column3')[0];
-internExper.style.marginTop = gapHeight + 22 + 'px';
+internExper.style.marginTop = gapHeight + 47 + 'px';
 
 var internDesc = $('.intern_column')[0];
 internDesc.style.marginTop = gapHeight + 60 + 'px';
@@ -18,7 +18,7 @@ var internLastlist = $(".intern_column ul li:eq(-1)").offset().top;
 var internDescTop = internDesc.offsetTop;
 var internListHeight = internLastlist - internDescTop;
 var masterSkillBar = $("#column4")[0];
-masterSkillBar.style.marginTop = internListHeight -10 + "px";
+masterSkillBar.style.marginTop = internListHeight -12 + "px";
 
 //自我描述定位
 var skillLastlist = $(".skill ul li:eq(-1)").offset().top;

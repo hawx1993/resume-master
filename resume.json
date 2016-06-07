@@ -34,19 +34,19 @@
   }],
   "experience": [{
     "project_name": "judgejs",
-    "start": "2016.01",
-    "end": "2016.03",
+    "rightDescription": "核心开发者",
     "description": [
       "轻量级前端判断类库，没有任何依赖，支持`AMD` & `CommonJS`",
       "主要封装一些常用信息判断，使用`Qunit`单元测试"
     ]
   },{
     "project_name": "校园团购网--益乐团购",
-    "start": "2014.03",
-    "end": "2014.07",
+    "rightDescription": "2014.02~2014.06",
     "description": [
       "使用最土团购系统，开发短信注册等功能；开发一些通用的前端组件，并作网站性能优化",
-      "主要使用原生`js`开发；页面开发与兼容处理；数据库使用`MySQL`，后端使用PHP开发"
+      "主要使用原生`js`开发；页面开发与兼容处理；数据库使用`MySQL`，后端使用PHP开发",
+      "主要封装一些常用信息判断sadsad",
+      "好杀菌的萨达是啊飒飒的搭建撒旦撒旦阿萨德撒旦上几节课撒开了搭建啥活动山东省拉多撒谎的撒旦叫撒的话撒旦"
     ]
   }],
   "works": [{
@@ -77,9 +77,7 @@
     "description": [
       "熟悉`ECMAScript`，对`js`有一定深入研究和学习。 ﻿写过`jQuery`全屏滚动插件",
       "对`Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等模块化解决方案有一定实践",
-      "了解`ECMAScript 6`，了解 `JavaScript` 在浏览器环境中常见的兼容性问题及解决方案",
-      "日常使用 `Grunt` 或 `Gulp` 改进工作流，使用`Mac os X`进行开发，熟悉常用`Linux` & `git`命令",
-      "有Node.js项目开发经验，对前端性能优化和模块化、网络基础等有一定了解"
+      "了解`ECMAScript 6`，了解 `JavaScript` 在浏览器环境中常见的兼容性问题及解决方案"
     ]
   }],
   "self_desc": [{
