@@ -8,7 +8,7 @@
 
 #### 简历效果如下图所示
 
-![](src/img/xiaoguo.png)
+![](src/img/resume.png)
 
 ## 环境安装
 

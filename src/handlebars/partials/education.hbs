@@ -3,20 +3,29 @@
         <p class="border_line">
             <span class="schoolName">{{school_name}}</span>
         </p>
-        <span class="selfIntro">个人简介</span>
-        <ul>
+        <span class="selfIntro">{{Aboutme}}</span>
+        <ul class="edu_column1">
             <li>
                 {{major}}
                 <span class="type">{{type}}</span>
+            </li>
+            <li>
+                {{enlevel}}  <span class="level">{{English_level}}</span>
+            </li>
+            <li>
+                <span class="desc">{{desc}}</span>
+            </li>
+        </ul>
+        <ul class="edu_column2">
+            <li>
                 <span>{{jiguan}}：{{native}}</span>
                 <span class="now">{{xianju}}：{{now_place}}</span>
             </li>
             <li>
-                {{enlevel}}  <span class="level">{{English_level}}</span>
-                <span>{{xingbie}}：{{sex}}<span class="date">{{riqi}}：{{date_of_birth}}</span></span>
+                <span>{{xingbie}}：{{sex}} </span>
+                <span class="date">{{riqi}}：{{date_of_birth}}</span>
             </li>
             <li>
-                <span class="desc">{{desc}}</span>
                 <span>{{aihao}}：{{interests}}</span>
             </li>
         </ul>
