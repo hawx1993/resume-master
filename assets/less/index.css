@@ -1,6 +1,9 @@
 * {
   font-weight: normal;
 }
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .columnSet {
   display: inline-block;
   width: 184px;
@@ -41,7 +44,7 @@
   padding: 0;
 }
 .resume .inner_resume {
-  margin: 7.1mm 15.3mm 0.5mm 0.1mm;
+  margin: 7.1mm 11.3mm 0.5mm 0.1mm;
 }
 table {
   border-collapse: separate;
@@ -62,15 +65,22 @@ footer {
   text-align: center;
 }
 footer .resumeLinks {
-  color: #93c47d;
+  color: #5cb85c;
+  font-weight: bold;
+}
+footer .resumeLinks:hover {
+  text-decoration: underline;
 }
 ul {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style-type: square;
+}
 code {
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 600;
   color: teal;
   background-color: #f8f8f8;
 }
@@ -164,13 +174,13 @@ code {
   float: left;
 }
 .education_column {
-  width: 550px;
+  width: 568px;
   float: right;
   margin-bottom: 30px;
 }
 .education_column .border_line {
   display: inline-block;
-  width: 525px;
+  width: 540px;
   height: 36px;
   border-bottom: 1.5pt solid #cccccc;
   margin-left: 25px;
@@ -186,7 +196,7 @@ code {
 .education_column .selfIntro {
   display: inline-block;
   position: relative;
-  right: -286px;
+  right: -22px;
   top: -44px;
   background-color: #EEEEEE;
   border-bottom: 1px solid #CCCCCC;
@@ -196,53 +206,67 @@ code {
   color: #666;
   padding: 6px 0 1px 10px;
 }
-.education_column ul {
-  margin-left: 30px;
-  margin-top: -27px;
-}
-.education_column ul li {
+.education_column .listCommon {
   font-size: 10pt;
   color: #666;
-  margin-bottom: 6px;
   line-height: 1.25;
 }
-.education_column ul li .type {
-  margin-left: 60px;
-  color: #444;
-  margin-right: 70px;
+.education_column .edu_column1 {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  margin-left: 30px;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.25;
 }
-.education_column ul li .level {
-  margin-left: 90px;
-  margin-right: 70px;
+.education_column .edu_column1 li {
+  margin-bottom: 6px;
 }
-.education_column ul li .desc {
-  margin-right: 64px;
+.education_column .edu_column1 .type {
+  float: right;
+  margin-right: 40px;
 }
-.education_column ul li .now {
-  margin-left: 40px;
+.education_column .edu_column1 .level {
+  float: right;
+  margin-right: 40px;
 }
-.education_column ul li .date {
-  margin-left: 60px;
+.education_column .edu_column2 {
+  display: inline-block;
+  width: 264px;
+  float: right;
+  margin-top: -26px;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.25;
+}
+.education_column .edu_column2 li {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+.education_column .edu_column2 .now {
+  float: right;
+}
+.education_column .edu_column2 .date {
+  float: right;
 }
 .border_line {
   display: flex;
-  width: 525px;
+  width: 545px;
   border-bottom: 1.5pt solid #cccccc;
   margin-left: 205px;
 }
 .experience {
   display: inline-block;
-  width: 530px;
+  width: 540px;
   float: right;
   margin-top: 14px;
   border-bottom: 1px dashed #ccc;
 }
 .experience .project_name {
-  font-family: SimSun, 宋体, 华文宋体;
-  margin: 0mm 0.5mm 0.5mm 1.0mm;
+  margin: 0 0.5mm 1.5mm 1.0mm;
   font-size: 11pt;
   color: #3d85c6;
-  font-weight: bold;
   line-height: 1.5;
 }
 .experience .project_desc {
@@ -265,11 +289,10 @@ code {
   vertical-align: middle;
   line-height: 2;
   color: #3d85c6;
-  width: 530px;
+  width: 540px;
   height: 24px;
   font-size: 10pt;
   font-weight: bold;
-  font-style: normal;
   padding-left: 10px;
 }
 .intern_column ul {
@@ -281,13 +304,14 @@ code {
   color: #666;
   line-height: 1.5;
   font-weight: normal;
+  font-size: 13px;
 }
 .skill .skill_border {
   border-right: 3pt solid #93c47d;
 }
 .skill .skill_desc {
   background-color: #EEEEEE;
-  width: 540px;
+  width: 555px;
   height: 24px;
   text-align: left;
   vertical-align: middle;
@@ -303,7 +327,7 @@ code {
 }
 .desc_header {
   background-color: #f3f3f3;
-  width: 555px;
+  width: 570px;
   height: 24px;
   margin-left: 180px;
 }
@@ -312,6 +336,7 @@ code {
   color: #666;
   line-height: 1.5;
   font-weight: normal;
+  text-indent: 14px;
   margin-left: 190px;
-  margin-top: -2px;
+  margin-top: -10px;
 }

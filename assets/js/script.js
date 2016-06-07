@@ -26,8 +26,8 @@ var skillDesc = $(".skill_desc")[0].offsetTop;
 var skillGapHeight = skillLastlist - skillDesc;
 
 var column5 = $("#column5")[0];
-column5.style.marginTop = skillGapHeight + "px";
+column5.style.marginTop = skillGapHeight  + "px";
 
 var descHead = $(".desc_header")[0];
-descHead.style.marginTop = skillGapHeight +48+ "px";
+descHead.style.marginTop = skillGapHeight +44+ "px";
 

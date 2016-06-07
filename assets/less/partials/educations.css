@@ -1,11 +1,11 @@
 .education_column {
-  width: 550px;
+  width: 568px;
   float: right;
   margin-bottom: 30px;
 }
 .education_column .border_line {
   display: inline-block;
-  width: 525px;
+  width: 540px;
   height: 36px;
   border-bottom: 1.5pt solid #cccccc;
   margin-left: 25px;
@@ -21,7 +21,7 @@
 .education_column .selfIntro {
   display: inline-block;
   position: relative;
-  right: -286px;
+  right: -22px;
   top: -44px;
   background-color: #EEEEEE;
   border-bottom: 1px solid #CCCCCC;
@@ -31,31 +31,47 @@
   color: #666;
   padding: 6px 0 1px 10px;
 }
-.education_column ul {
-  margin-left: 30px;
-  margin-top: -27px;
-}
-.education_column ul li {
+.education_column .listCommon {
   font-size: 10pt;
   color: #666;
-  margin-bottom: 6px;
   line-height: 1.25;
 }
-.education_column ul li .type {
-  margin-left: 60px;
-  color: #444;
-  margin-right: 70px;
+.education_column .edu_column1 {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  margin-left: 30px;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.25;
 }
-.education_column ul li .level {
-  margin-left: 90px;
-  margin-right: 70px;
+.education_column .edu_column1 li {
+  margin-bottom: 6px;
 }
-.education_column ul li .desc {
-  margin-right: 64px;
+.education_column .edu_column1 .type {
+  float: right;
+  margin-right: 40px;
 }
-.education_column ul li .now {
-  margin-left: 40px;
+.education_column .edu_column1 .level {
+  float: right;
+  margin-right: 40px;
 }
-.education_column ul li .date {
-  margin-left: 60px;
+.education_column .edu_column2 {
+  display: inline-block;
+  width: 264px;
+  float: right;
+  margin-top: -26px;
+  font-size: 10pt;
+  color: #666;
+  line-height: 1.25;
+}
+.education_column .edu_column2 li {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+.education_column .edu_column2 .now {
+  float: right;
+}
+.education_column .edu_column2 .date {
+  float: right;
 }
