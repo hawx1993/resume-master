@@ -65,7 +65,7 @@ footer {
   text-align: center;
 }
 footer .resumeLinks {
-  color: #5cb85c;
+  color: teal;
   font-weight: bold;
 }
 footer .resumeLinks:hover {
