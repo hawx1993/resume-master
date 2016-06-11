@@ -36,10 +36,11 @@ $ npm install -g bower
 
 请使用chrome或者Safari浏览器来打印。
 
-chrome执行：文件 —— 打印——页码处写1——底下选项勾选背景图形 即可（Windows系统直接鼠标右键——打印）
+Mac chrome执行：文件 —— 打印,即可（Windows系统直接鼠标右键——打印）
 
 Safari执行：文件——导出为PDF 即可
 
+或者点击下方的`print it`打印
 ## deploy to github pages
 
 1.clone this repo

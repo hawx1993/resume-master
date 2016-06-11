@@ -11,14 +11,14 @@ var internExper = $('#column3')[0];
 internExper.style.marginTop = gapHeight + 47 + 'px';
 
 var internDesc = $('.intern_column')[0];
-internDesc.style.marginTop = gapHeight + 60 + 'px';
+internDesc.style.marginTop = gapHeight + 65 + 'px';
 
 //掌握技能定位
 var internLastlist = $(".intern_column ul li:eq(-1)").offset().top;
 var internDescTop = internDesc.offsetTop;
 var internListHeight = internLastlist - internDescTop;
 var masterSkillBar = $("#column4")[0];
-masterSkillBar.style.marginTop = internListHeight -12 + "px";
+masterSkillBar.style.marginTop = internListHeight  + "px";
 
 //自我描述定位
 var skillLastlist = $(".skill ul li:eq(-1)").offset().top;
@@ -26,8 +26,16 @@ var skillDesc = $(".skill_desc")[0].offsetTop;
 var skillGapHeight = skillLastlist - skillDesc;
 
 var column5 = $("#column5")[0];
-column5.style.marginTop = skillGapHeight  + "px";
+column5.style.marginTop = skillGapHeight + "px";
 
 var descHead = $(".desc_header")[0];
-descHead.style.marginTop = skillGapHeight +44+ "px";
+descHead.style.marginTop = skillGapHeight +column5+ "px";
 
+//print
+$('#print').click(function () {
+    try {
+        print();
+    } catch(e) {
+        alert('Your browser does not support `print()` method.');
+    }
+});

@@ -1,15 +1,16 @@
-.border_line {
+#border_line1 {
   display: flex;
-  width: 545px;
+  display: -ms-flexbox;
+  width: 100%;
   border-bottom: 1.5pt solid #cccccc;
-  margin-left: 205px;
 }
 .experience {
   display: inline-block;
-  width: 540px;
-  float: right;
-  margin-top: 14px;
+  width: 100%;
+  float: left;
+  margin-top: 6px;
   border-bottom: 1px dashed #ccc;
+  font-weight: bold;
 }
 .experience .project_name {
   margin: 0 0.5mm 1.5mm 1.0mm;

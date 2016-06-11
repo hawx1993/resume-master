@@ -1,11 +1,19 @@
 * {
   font-weight: normal;
 }
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  margin: 0;
+  padding: 0.5in;
+}
+@media print {
+  padding: 0;
+  box-shadow: none;
 }
 .columnSet {
   display: inline-block;
@@ -45,24 +53,16 @@ body {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   overflow: hidden;
-  padding: 0;
+  line-height: 1.5;
+  flex-flow: row wrap;
 }
 .resume .inner_resume {
   margin: 7.1mm 11.3mm 0.5mm 0.1mm;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 table {
   border-collapse: separate;
   border-spacing: 0;
-  table-layout: fixed;
   width: 100%;
-}
-.border_box {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -77,6 +77,14 @@ footer .resumeLinks {
 footer .resumeLinks:hover {
   text-decoration: underline;
 }
+footer #print {
+  color: teal;
+}
+@media print {
+  footer {
+    display: none;
+  }
+}
 ul {
   margin: 0;
   padding: 0;
@@ -88,6 +96,17 @@ code {
   font-size: 1em;
   color: teal;
   background-color: #f8f8f8;
+}
+@media print {
+  @page {
+    size: portrait;
+  }
+}
+.resume_content {
+  margin-left: 210px;
+}
+#column4 {
+  margin-left: 0px;
 }
 .row {
   position: relative;
@@ -102,7 +121,7 @@ code {
   background-color: #999999;
   text-align: center;
   vertical-align: middle;
-  width: 191px;
+  width: 26%;
   height: 26px;
   color: #f3f3f3;
 }
@@ -153,9 +172,12 @@ code {
 .timelineWrapper {
   display: inline-block;
   border-right: 0.75pt solid #999999;
-  width: 180px;
+  width: 24%;
   height: 970px;
   float: left;
+}
+.timelineWrapper p {
+  display: inline-block;
 }
 .timelineWrapper .eduction {
   margin-top: 30px;
@@ -179,16 +201,14 @@ code {
   float: left;
 }
 .education_column {
-  width: 568px;
-  float: right;
+  float: left;
   margin-bottom: 30px;
 }
 .education_column .border_line {
   display: inline-block;
-  width: 540px;
+  width: 100%;
   height: 36px;
   border-bottom: 1.5pt solid #cccccc;
-  margin-left: 25px;
 }
 .education_column .border_line .schoolName {
   font-size: 12pt;
@@ -201,15 +221,14 @@ code {
 .education_column .selfIntro {
   display: inline-block;
   position: relative;
-  right: -22px;
-  top: -44px;
+  right: -28px;
+  top: -42px;
   background-color: #EEEEEE;
-  border-bottom: 1px solid #CCCCCC;
-  width: 254px;
-  height: 20px;
+  width: 262px;
+  height: 25px;
   font-size: 12pt;
   color: #666;
-  padding: 6px 0 1px 10px;
+  padding: 2px 0 1px 10px;
 }
 .education_column .listCommon {
   font-size: 10pt;
@@ -220,7 +239,6 @@ code {
   display: inline-block;
   float: left;
   width: 250px;
-  margin-left: 30px;
   font-size: 10pt;
   color: #666;
   line-height: 1.25;
@@ -255,18 +273,19 @@ code {
 .education_column .edu_column2 .date {
   float: right;
 }
-.border_line {
+#border_line1 {
   display: flex;
-  width: 545px;
+  display: -ms-flexbox;
+  width: 100%;
   border-bottom: 1.5pt solid #cccccc;
-  margin-left: 205px;
 }
 .experience {
   display: inline-block;
-  width: 540px;
-  float: right;
-  margin-top: 14px;
+  width: 100%;
+  float: left;
+  margin-top: 6px;
   border-bottom: 1px dashed #ccc;
+  font-weight: bold;
 }
 .experience .project_name {
   margin: 0 0.5mm 1.5mm 1.0mm;
@@ -286,7 +305,6 @@ code {
   line-height: 1.5;
 }
 .intern_column {
-  margin-left: 200px;
   font-size: 10pt;
   color: #666;
   line-height: 1.5;
@@ -298,9 +316,8 @@ code {
   vertical-align: middle;
   line-height: 2;
   color: #3d85c6;
-  width: 540px;
+  width: 100%;
   height: 24px;
-  font-size: 10pt;
   font-weight: bold;
   padding-left: 10px;
 }
@@ -308,7 +325,7 @@ code {
   margin-left: 10px;
 }
 .skill {
-  float: right;
+  margin-left: -30px;
   font-size: 10pt;
   color: #666;
   line-height: 1.5;
@@ -320,7 +337,6 @@ code {
 }
 .skill .skill_desc {
   background-color: #EEEEEE;
-  width: 555px;
   height: 24px;
   text-align: left;
   vertical-align: middle;
@@ -329,16 +345,15 @@ code {
   font-size: 10pt;
   line-height: 2;
   padding-left: 10px;
-  margin-top: 10px;
+  margin-top: 22px;
 }
 .skill ul {
   margin-left: 30px;
 }
 .desc_header {
   background-color: #f3f3f3;
-  width: 570px;
   height: 24px;
-  margin-left: 180px;
+  margin-left: -30px;
 }
 .self_content {
   font-size: 10pt;
@@ -346,6 +361,5 @@ code {
   line-height: 1.5;
   font-weight: normal;
   text-indent: 14px;
-  margin-left: 190px;
-  margin-top: -10px;
+  margin-top: -6px;
 }

@@ -1,18 +1,17 @@
 <!--左侧时间轴-->
 <div class="timelineWrapper">
     <!--教育背景-->
-    <p class="columnSet border_box eduction" id="column1"><span class="text">教育背景</span></p>
+    <p class="columnSet  eduction" id="column1"><span class="text">教育背景</span></p>
 
         {{#each personal_info}}
             <span class="schoolTime">{{start}} ~ {{end}}</span>
         {{/each}}
     <!--项目经验-->
-    <p class="columnSet project border_box"  id="column2"><span class="text">项目经验</span></p>
-
+    <p class="columnSet project"  id="column2"><span class="text">项目经验</span></p>
 
     {{#each sideBar}}
     <!--实习/工作经验-->
-        <p class="columnSet border_box   intern" id="column3">
+        <p class="columnSet  intern" id="column3">
             <span class="text">{{column3}}
             </span>
         </p>
@@ -21,13 +20,13 @@
         {{/each}}
 
     <!--掌握技能-->
-        <p class="columnSet border_box skill" id="column4">
+        <p class="columnSet  skill" id="column4">
             <span class="text">{{column4}}
             </span>
         </p>
 
     <!--自我描述-->
-        <p class="columnSet border_box   self" id="column5">
+        <p class="columnSet  self" id="column5">
             <span class="text">{{column5}}
             </span>
         </p>

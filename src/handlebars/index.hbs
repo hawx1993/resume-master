@@ -2,28 +2,30 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>{{#if title}}{{title}}{{else}}Resume{{/if}}</title>
     <link rel="stylesheet" href="assets/css/index.css"/>
 </head>
 <body>
-    <div class="resume">
+    <main class="resume">
         <div class="inner_resume">
             {{> header}}
             {{> sidebar}}
-            {{> education}}
-            {{> experience}}
-            {{> intern}}
-            {{> skill}}
-            {{> self-desc}}
+            <div class="resume_content">
+                {{> education}}
+                {{> experience}}
+                {{> intern}}
+                {{> skill}}
+                {{> self-desc}}
+            </div>
         </div>
-    </div>
+    </main>
     <footer>
         <a href="https://github.com/hawx1993/resume-master" target="_blank" class="resumeLinks">
             This resume
         </a>
         is built with Gulp, Handlebars and Less. All rights reserved By
-        <a href="https://github.com/hawx1993" class="resumeLinks">trigkit4</a>.
+        <a href="https://github.com/hawx1993" class="resumeLinks">trigkit4</a>.You can
+        <a id="print" href="javascript:;" class="resumeLinks">  print it</a>
     </footer>
 
     <script src="assets/js/jquery.js"></script>
