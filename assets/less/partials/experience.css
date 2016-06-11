@@ -1,14 +1,13 @@
-.border_line {
+#border_line1 {
   display: flex;
-  width: 545px;
+  width: 100%;
   border-bottom: 1.5pt solid #cccccc;
-  margin-left: 205px;
 }
 .experience {
   display: inline-block;
   width: 540px;
-  float: right;
-  margin-top: 14px;
+  float: left;
+  margin-top: 6px;
   border-bottom: 1px dashed #ccc;
 }
 .experience .project_name {

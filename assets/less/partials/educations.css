@@ -1,14 +1,12 @@
 .education_column {
-  width: 568px;
-  float: right;
+  float: left;
   margin-bottom: 30px;
 }
 .education_column .border_line {
   display: inline-block;
-  width: 540px;
+  width: 100%;
   height: 36px;
   border-bottom: 1.5pt solid #cccccc;
-  margin-left: 25px;
 }
 .education_column .border_line .schoolName {
   font-size: 12pt;
@@ -21,15 +19,14 @@
 .education_column .selfIntro {
   display: inline-block;
   position: relative;
-  right: -22px;
-  top: -44px;
+  right: -28px;
+  top: -42px;
   background-color: #EEEEEE;
-  border-bottom: 1px solid #CCCCCC;
-  width: 254px;
-  height: 20px;
+  width: 262px;
+  height: 25px;
   font-size: 12pt;
   color: #666;
-  padding: 6px 0 1px 10px;
+  padding: 4px 0 1px 10px;
 }
 .education_column .listCommon {
   font-size: 10pt;
@@ -40,7 +37,6 @@
   display: inline-block;
   float: left;
   width: 250px;
-  margin-left: 30px;
   font-size: 10pt;
   color: #666;
   line-height: 1.25;
