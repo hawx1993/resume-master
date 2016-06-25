@@ -3,9 +3,6 @@
   "version": "1.1.0",
   "description": "A resume generator read data from json",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "phantomjs render.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/hawx1993/resume-master.git"
