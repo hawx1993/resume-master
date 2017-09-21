@@ -1,5 +1,9 @@
 ## About this repo
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/gWs9P5H4YpntyAR6x1qG5EkX/hawx1993/resume-master'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/gWs9P5H4YpntyAR6x1qG5EkX/hawx1993/resume-master.svg' />
+</a>
+
 `resume-master` 是一个简历生成器，从json中读取数据，可部署到`github pages` 在线浏览，也可生成pdf格式简历。http://hawx1993.github.io/resume-master/
 
  - 简历数据存放在`resume.json`文件中
